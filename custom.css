@@ -2,17 +2,67 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background-image: url(XQ3A2740.jpg);
+}
+
+#homepage{
+    background-image: url(images/XQ3A2740.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
 }
 
+#venuepage {
+    background-color: rgba(255,248,240,.3);
+}
+
+#weddingpage{
+    background-image: url(images/Melanie&DerekUncropped.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#requestpage{
+    background-image: url(images/request.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#MegGreg-page{
+    background-image: url(images/Meg&GregUncropped.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#MorganWesley-page{
+    background-image: url(images/Morgan&WesleyUncropped.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#LaurenMatt-page{
+    background-image: url(images/Lauren&MattUncropped.JPG);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.main-container {
+    justify-content: center;
+}
+
 .navbar{
     background-color: #c4a29e;
     width: 100%;
-    min-width: 400px;
     margin-top: 15px;
 }
 
@@ -64,10 +114,6 @@ body{
     text-decoration: none;
 }
 
-.main-container {
-    justify-content: center;
-}
-
 .venue-button .btn{
     background-color: #c4a29e;
     border-color: #c4a29e;
@@ -92,10 +138,19 @@ body{
 }
 
 .content{
-    width: 98%;
+    width: 88%;
     background-color: rgba(255,248,240,.4);
     min-width: 400px;
 }
+
+.footer {
+    text-align: center;
+    height: 38vh;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+/* start of weddings page */
 
 .container.header{
     width: 55%;
@@ -130,16 +185,136 @@ p{
     padding: 20px;
 }
 
-.footer {
+footer.row{
+    height: 46vh;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.header-container{
+    background-color: rgba(255,248,240,.7);
+    padding: 30px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+footer img{
+    height: 250px !important;
+    width: auto !important;
+    opacity: .35;
+}
+
+footer img:hover{
+    opacity: 1;
+    transition: linear 0.4s;
+}
+
+.gallery-item{
+    display: inline-block;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 300px;
+    margin: 20px;
+}
+
+.gallery h2{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.gallery{
+    background-color: white;
+    padding-bottom: 15px;
+    width: 100vw;
+    display:inline-flex;
+    flex-wrap: wrap;
+
+}
+
+.wedding-main{
+    height: 90vh;
+  
+   
+}
+    
+@media only screen and (max-width: 768px){
+    .gallery-item{
+        margin-left: 0px;
+    }
+    
+    footer img{
+        opacity: 1;
+        height: 315px;
+    }
+
+}
+
+@media only screen and (max-width: 495px){
+    .header-container{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .gallery-item{
+      margin-left: 0;
+    }
+
+} 
+
+/* start of venue page */
+
+:hover {
+    transition: linear 0.3s;
+}
+
+.intro {
+    border:none;
+}
+
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: thin;
+    font-size: 18px;
     text-align: center;
-    height: 38vh;
-    align-items: flex-end;
-    font-size: 10px;
+}
+
+.venue-cards {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    text-align: center;
+    border-color: rgb(238, 228, 218);
+}
+
+footer.venuefooter {
+    height: 10vh;
 }
 
 
-/* @media only screen and (min-width: 495px){
-    .container.header{
-        width: 100%;
-    }
-} */
+.btn-secondary {
+    background-color: #c4a29e;
+    border-color: #c4a29e;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.btn-secondary:hover {
+    background-color: #d8a47f;
+    border-color: #d8a47f;
+}
+
+/* request page */
+
+.request-form {
+    font-family:'Lusitana', serif;
+    background-color: rgba(255,248,240,.8);
+    padding: 30px;
+    margin-bottom: 15px;
+    border-radius: 2%;
+}
+
+.overlay {
+    background-color: rgba(255,248,240,.15);
+}
