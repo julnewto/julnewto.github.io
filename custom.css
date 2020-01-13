@@ -17,7 +17,7 @@ body{
 }
 
 #weddingpage{
-    background-image: url(images/Melanie&DerekUncropped.jpg);
+    background-image: url(couplebackground.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,8 +118,8 @@ body{
     background-color: #c4a29e;
     border-color: #c4a29e;
     font-family: 'Josefin Sans', sans-serif; 
+    width: 200px;
     margin-bottom: 10px;
-    width: 175px;
 }
 
 .venue-button .btn:hover{
@@ -131,7 +131,7 @@ body{
     background-color: #c4a29e;
     border-color: #c4a29e;
     font-family:'Josefin Sans', sans-serif;
-    width: 175px;
+    width: 200px;
 }
 
 .weddings-button .btn:hover {
