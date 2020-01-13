@@ -119,6 +119,7 @@ body{
     border-color: #c4a29e;
     font-family: 'Josefin Sans', sans-serif; 
     margin-bottom: 10px;
+    width: 150px;
 }
 
 .venue-button .btn:hover{
@@ -130,6 +131,7 @@ body{
     background-color: #c4a29e;
     border-color: #c4a29e;
     font-family:'Josefin Sans', sans-serif;
+    width: 150px;
 }
 
 .weddings-button .btn:hover {
